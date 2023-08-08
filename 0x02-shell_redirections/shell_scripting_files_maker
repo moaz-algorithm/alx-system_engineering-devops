@@ -6,7 +6,7 @@ echo 'wrait the command'
 read command
 echo ${command} >> ${filename}
 chmod +x ${filename}
-./${filename}
+#./${filename}
 echo 'enter your commit to up to githup'
 read commit
 git add . 
